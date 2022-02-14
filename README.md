@@ -1,4 +1,4 @@
-<h1>Null Safaety</h1>
+<h1>Null Safety</h1>
 
 <p>A partir do Dart 2.12, foi atribuído o Null Safety com a finalidade de facilitar as aplicações, dificultando os erros de valores nulos.  
 Após o Null Safety todas as variáveis nunca poderão ser nulas, elas são “Non Nullable” por padrão. Com isso, para declarar que a variável possa ser nula em algum determinado momento da aplicação, utilizamos o operador “ ? “. Por exemplo:</p> 
