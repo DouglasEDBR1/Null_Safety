@@ -57,9 +57,18 @@ de auxílio, no caso do exemplo abaixo, criei a variável “ name “ que é do
 <p>É possível atribuir o valor 0 a variável ‘ total ‘ para que ela seja inicializada como não nula. Recapitulando que, isso só acontece porque a variável está fora da função 
 ‘ main ‘ e o analisador do Dart não consegue interpretar se existe um valor ou não. <p>
 <img src="image/captura13.png" width = 290>
+<hr>
 <p>Nas classes estáticas também teremos que definir um valor para que ela possa ser inicializada. Exemplo:</p>
 <img src="image/captura14.png" width = 420>
+<hr>
+<p>A grande vantagem do Null Safety é a possibilidade de prevenir erros, que só perceberíamos em tempo de execução, dessa forma, o programador recebe os erros pelo analisador do Dart antes da compilação, fazendo com que muitos erros sejam evitados. 
 
+Existem três principios principais, são:
+Non-Nullblade -> Por padrão a variável não pode ser nula, a não ser que o programador defina que ela poderá ser nula, do tipo non-nullable.
+
+Incrementally adoptable -> É a possibilidade de escolher o que será migrado para null safety, e também quando será migrado.
+
+Fully Sound -> Caso o sistema defina que algo não pode ser nulo, está definição será sempre válida.</p>
 
 
 
